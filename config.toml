@@ -1,0 +1,55 @@
+baseurl = "/"
+languageCode = "en-us"
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"
+  showMenuItems = 6
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "Jason Dyke"
+    subtitle = "Personal Site"
+    owner = "Jason Dyke"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Jason Dyke"
+      logoHomeLink = "/"
+      identifier="home"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "articles"
+        name = "Articles"
+        url = "/articles"
+      [[languages.en.menu.main]]
+        identifier = "certificates"
+        name = "Certificates"
+        url = "/certificates"
+      [[languages.en.menu.main]]
+        identifier = "events"
+        name = "Events"
+        url = "/events"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "socials"
+        name = "Socials"
+        url = "/socials"
