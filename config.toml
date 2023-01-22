@@ -1,5 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
+enableemoji = "true"
 
 [params]
   contentTypeName = "posts"
@@ -7,6 +8,7 @@ languageCode = "en-us"
   showMenuItems = 6
   fullWidthTheme = false
   centerTheme = false
+  favicon = "favicon.ico"
 
 [languages]
   [languages.en]
