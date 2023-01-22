@@ -2,7 +2,7 @@
 title: "Certificates"
 ---
 
-Opinions vary on the value of certificates. In the consulting indutry certs establish a reputation for shops and allow those companies to reach different levels of partnerships from the cloud providers. Some view the exams as out of date and not efficient because they do not keep up with the speed of releases from the providers themselves. Regardless of your personal feelings towards them I let the majority of mine expire due to the time investment of studying for 10 different certificates across two cloud platforms.
+Opinions vary on the value of certificates. In the consulting industry certs establish a reputation for shops and allow those companies to reach different levels of partnerships from the cloud providers. Some view the exams as out of date and not efficient because they do not keep up with the speed of releases from the providers themselves. Regardless of your personal feelings towards them I let the majority of mine expire due to the time investment of studying for 10 different certificates across two cloud platforms.
 
 Below you can find a list of my past / current certificates:
 

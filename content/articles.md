@@ -22,7 +22,7 @@ title: "Blogs and Articles"
 
 - [Automate Security on GCP with Event Threat Detection](https://medium.com/scalesec/automate-security-on-gcp-with-event-threat-detection-640f741a34e6): A walkthrough on how to leverage GCP Cloud Functions and Event Threat Detection to automate your cloud security response.
 
-- [Encryption in the Cloud Pt. 2: Encryption in GCS](https://medium.com/scalesec/encryption-in-the-cloud-pt-2-encryption-for-gcs-128a18cc73f2): Part 2 of a multipart series on encryption in AWS/GCP. This article focuses on GCS and deep dives into the different encryption offerings. 
+- [Encryption in the Cloud Pt. 2: Encryption in GCS](https://medium.com/scalesec/encryption-in-the-cloud-pt-2-encryption-for-gcs-128a18cc73f2): Part 2 of a multipart series on encryption in AWS/GCP. This article focuses on GCS and deep dives into the different encryption offerings.
 
 - [Our Favorite AWS re:Invent Security Announcements](https://medium.com/scalesec/our-favorite-aws-re-invent-security-announcements-94e06cd34dbc): A recap of the best security announcements from re:Invent 2019.
 
