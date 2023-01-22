@@ -1,6 +1,7 @@
-baseurl = "/"
+baseurl = "https://jdyke.github.io"
 languageCode = "en-us"
 enableemoji = "true"
+theme = "terminal"
 
 [params]
   contentTypeName = "posts"
