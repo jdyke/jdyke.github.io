@@ -1,0 +1,1 @@
+My personal website [jasondyke.com](https://jasondyke.com) written via [Hugo](https://gohugo.io) and hosted on GitHub pages. See this [post](https://www.jasondyke.com/posts/website_live/) for more information.
