@@ -1,0 +1,107 @@
+<!doctype html><html lang=en>
+<head>
+<title>New Personal Website is Live :: Jason Dyke</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Over my parental leave I migrated my personal website from Wix to a Hugo site hosted on GitHub pages. Wix ended up costing too much for the value it provided, but I&amp;rsquo;m sure it&amp;rsquo;s great for professional companies who need a no code solution.
+This site runs entirely on GitHub Pages which offers free hosting, automatic updates via GitHub actions, generation and rotation of SSL certificates, and best of all gives me full control over the layout and content of my own personal website.">
+<meta name=keywords content=",">
+<meta name=robots content="noodp">
+<link rel=canonical href=https://jdyke.github.io/posts/website_live/>
+<link rel=stylesheet href=https://jdyke.github.io/styles.css>
+<link rel="shortcut icon" href=https://jdyke.github.io/favicon.ico>
+<meta name=twitter:card content="summary">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="article">
+<meta property="og:title" content="New Personal Website is Live">
+<meta property="og:description" content="Over my parental leave I migrated my personal website from Wix to a Hugo site hosted on GitHub pages. Wix ended up costing too much for the value it provided, but I&amp;rsquo;m sure it&amp;rsquo;s great for professional companies who need a no code solution.
+This site runs entirely on GitHub Pages which offers free hosting, automatic updates via GitHub actions, generation and rotation of SSL certificates, and best of all gives me full control over the layout and content of my own personal website.">
+<meta property="og:url" content="https://jdyke.github.io/posts/website_live/">
+<meta property="og:site_name" content="Jason Dyke">
+<meta property="og:image" content="https://jdyke.github.io">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta property="article:published_time" content="2023-01-29 08:20:07 -0500 -0500">
+</head>
+<body class=green>
+<div class="container headings--one-size">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+Jason Dyke
+</div>
+</a>
+</div>
+<ul class="menu menu--mobile">
+<li class=menu__trigger>Menu&nbsp;▾</li>
+<li>
+<ul class=menu__dropdown>
+<li><a href=/about>About</a></li>
+<li><a href=/articles>Articles</a></li>
+<li><a href=/certificates>Certificates</a></li>
+<li><a href=/events>Events</a></li>
+<li><a href=/projects>Projects</a></li>
+<li><a href=/socials>Socials</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<nav class=navigation-menu>
+<ul class="navigation-menu__inner menu--desktop">
+<li><a href=/about>About</a></li>
+<li><a href=/articles>Articles</a></li>
+<li><a href=/certificates>Certificates</a></li>
+<li><a href=/events>Events</a></li>
+<li><a href=/projects>Projects</a></li>
+<li><a href=/socials>Socials</a></li>
+</ul>
+</nav>
+</header>
+<div class=content>
+<article class=post>
+<h1 class=post-title>
+<a href=https://jdyke.github.io/posts/website_live/>New Personal Website is Live</a>
+</h1>
+<div class=post-meta>
+<time class=post-date>
+2023-01-29 ::
+</time>
+<span class=post-author>Jason Dyke</span>
+</div>
+<span class=post-tags>
+#<a href=https://jdyke.github.io/tags/></a>&nbsp;
+#<a href=https://jdyke.github.io/tags/></a>&nbsp;
+</span>
+<div class=post-content><div>
+<p>Over my parental leave I migrated my personal website from <a href=wix.com>Wix</a> to a <a href=https://gohugo.io>Hugo</a> site hosted on GitHub pages. Wix ended up costing too much for the value it provided, but I&rsquo;m sure it&rsquo;s great for professional companies who need a no code solution.</p>
+<p>This site runs entirely on <a href=https://pages.github.com>GitHub Pages</a> which offers free hosting, automatic updates via GitHub actions, generation and rotation of SSL certificates, and best of all gives me full control over the layout and content of my own personal website.</p>
+<p>The Hugo theme I landed on is <a href=https://github.com/panr/hugo-theme-terminal>Terminal</a> which is minimal with no frills. There are a lot of cloud options available on where to host a Hugo website since it is static in nature. You can pick AWS S3, GCP GCS, Azure storage, etc. Normally I would go that route and deploy to a cloud storage service and configure a load balancer for SSL, but I wanted something where I had to do as little as possible. Enter <a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>GitHub Pages</a>.</p>
+<p>Per the Hugo documentation: &ldquo;GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service and automating development workflows and build with GitHub Actions.&rdquo; After migrating my domain from Wix to <a href=https://cloud.google.com/domains/docs/overview>GCP Cloud Domains</a> I was ready to deploy.</p>
+<p>To deploy and configure end to end I followed the below steps:</p>
+<ol>
+<li>Wrote the content in Markdown</li>
+<li>Created a GitHub repo with my username and &ldquo;github.io&rdquo;: <a href=https://github.com/jdyke/jdyke.github.io>jdyke.github.io</a></li>
+<li>Followed Steps <a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>here</a></li>
+<li>Read GitHub&rsquo;s <a href=https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages>documentation</a> about custom domains</li>
+<li>Configured DNS via the <a href=https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain-and-the-www-subdomain-variant>docs</a></li>
+<li>WAITED A DAY!! &lt;- This is key for DNS to propagate and GitHub to fully deploy SSL and infrastructure.</li>
+<li>Verified my domain via the <a href=https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages>docs</a></li>
+</ol>
+<p>Now to update my website it is as simple as merging code into the <code>main</code> branch and allow the <a href=https://github.com/jdyke/jdyke.github.io/blob/main/.github/workflows/gh-pages.yml>GitHub Action</a> to deploy.</p>
+</div></div>
+</article>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class=copyright>
+<span>© 2023 Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>:: <a href=https://github.com/panr/hugo-theme-terminal target=_blank>Theme</a> made by <a href=https://github.com/panr target=_blank>panr</a></span>
+</div>
+</div>
+</footer>
+<script type=text/javascript src=/bundle.min.js></script>
+</div>
+</body>
+</html>
